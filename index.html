@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- STYLESHEET -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+<div class="container text-center pt-5">
+    <div class="row">
+    <div class="col-9">
+        <canvas id="gameboard"class="board" height="600" width="450"></canvas> 
+    </div>
+    
+    <div class="col-3">
+       <h1><span class="badge badge-pill badge-danger">TETRIS</span></h1> 
+       <h2>
+        <span class="badge badge-pill badge-success">SCORE</span>
+        :
+        <span id="scoreCard"class="badge badge-pill badge-primary">0</span>  
+       </h2>
+    </div>
+    </div>
+   
+</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
